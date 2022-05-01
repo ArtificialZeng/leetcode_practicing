@@ -7,3 +7,13 @@ class Soluton:
         if nums[i]+nums[j] == target:
           return [i,j]
     return []
+
+  
+  addOne
+class Solution:
+  def addOne(self,List[int]) ->
+    
+    
+    for
+    
+    return [1] + [0] *n
