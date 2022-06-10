@@ -41,6 +41,6 @@ It is **guaranteed** that the node to be deleted is **not a tail node** in the l
 ```python
 class Solution:
     def deleteNode(self, node):
-		node.val = node.next.val #我们将要删除节点的 next 节点的值赋值给要删除的节点，转而去删除 next 节点，从而达成目的。
-		node.next = node.next.next
+	node.val = node.next.val #我们将要删除节点的 next 节点的值赋值给要删除的节点，转而去删除 next 节点，从而达成目的。
+	node.next = node.next.next
 ```
